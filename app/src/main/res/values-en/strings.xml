@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My developer Portfolio</string>
+    <string name="textTit">Software Developer</string>
+    <string name="tab_perfil">Profile</string>
+    <string name="tab_exp">Work</string>
+    <string name="tab_habilidades">Skills</string>
+    <string name="tab_contacto">Contact</string>
+    <string name="about_me">Hello, my name is Walter, I have a bachelor"\'"s degree in Information Systems and I am orientated to backend and mobil development.
+        I have more than 9 years experience. I have participated in projects which involves from Commercial Managment, mobil to buildig API microservices.
+        My strength lies in mobil apps and microservices mainly built with JAVA. Besides that I have thive my skills as a technical lead.</string>
+</resources>

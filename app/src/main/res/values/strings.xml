@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mi Portfolio</string>
+    <string name="textTit">Desarrollador de Software</string>
+    <string name="tab_perfil">Perfil</string>
+    <string name="tab_exp">Experiencia</string>
+    <string name="tab_habilidades">Habilidades</string>
+    <string name="tab_contacto">Contacto</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="about_me">Hola, mi nombre es Walter, soy Licenciado en Sistemas de Información con perfil backend y móvil con mas de 9 años de experiencia laboral. Durante mi
+        carrera profesional he participado en proyectos para sistemas de gestión comercial (ERP), aplicaciones móvil y contrucción de APIs.
+        Me he orientado a la contrucción de apilcaciones móviles y en la parte web al desarrollo de APIs principalmente con java.
+        Ademas me he desempeñado como referente técnico, viendo las ventajas de utilizar diferentes tecnologías.
+    </string>
+</resources>
