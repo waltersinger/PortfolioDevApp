@@ -8,9 +8,24 @@
 
     <!-- TODO: Remove or change this placeholder text -->
 
-    <string name="about_me">Hola, mi nombre es Walter, soy Licenciado en Sistemas de Información con perfil backend y móvil con mas de 9 años de experiencia laboral. Durante mi
-        carrera profesional he participado en proyectos para sistemas de gestión comercial (ERP), aplicaciones móvil y contrucción de APIs.
+    <string name="about_me">Hola, mi nombre es Walter, soy Licenciado en Sistemas de Información con perfil backend y móvil con mas de 9 años de experiencia laboral."\n"Durante mi
+        carrera profesional he participado en proyectos para sistemas de gestión comercial (ERP), aplicaciones móvil y contrucción de APIs."\n"
         Me he orientado a la contrucción de apilcaciones móviles y en la parte web al desarrollo de APIs principalmente con java.
         Ademas me he desempeñado como referente técnico, viendo las ventajas de utilizar diferentes tecnologías.
     </string>
+
+    <string name="my_work">* Construcción de sistemas de información ERP."\n"* Contrucción de aplicaciones móviles con Android Studio."\n"
+    * Contrucción de microservicios (API Restful) con Java y framewors SpringBoot,Hibernate y también con PHP."\n"* Manejo de SQL Scripting.
+    </string>
+
+    <string name="my_skills">
+        * JAVA."\n"* Android SDK."\n"* Delphi."\n"* MySQL."\n"* HTML, CSS."\n"* PHP.
+    </string>
+    <string name="my_phonenumer">+54 9 3854742773</string>
+    <string name="my_linkedin">www.linkedin/in/singerwalter</string>
+    <string name="my_skype">walter19802</string>
+    <string name="image_content_descrip">No hay imagen</string>
+    <string name="string_get_in_touch">Contactar</string>
+    <string name="my_github">https://github.com/waltersinger</string>
+
 </resources>

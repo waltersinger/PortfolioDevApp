@@ -5,7 +5,21 @@
     <string name="tab_exp">Work</string>
     <string name="tab_habilidades">Skills</string>
     <string name="tab_contacto">Contact</string>
-    <string name="about_me">Hello, my name is Walter, I have a bachelor"\'"s degree in Information Systems and I am orientated to backend and mobil development.
-        I have more than 9 years experience. I have participated in projects which involves from Commercial Managment, mobil to buildig API microservices.
-        My strength lies in mobil apps and microservices mainly built with JAVA. Besides that I have thive my skills as a technical lead.</string>
+    <string name="about_me">Hello, my name is Walter, I have a bachelor"\'"s degree in Information Systems and I am orientated to backend and mobil development."\n"
+        I have more than 9 years experience. I have participated in projects which involves from Commercial Management, mobil to building API microservices."\n"
+        As a developer, my strength lies in mobil apps and microservices mainly built with JAVA. Besides that I have thive my skills as a technical lead.</string>
+
+    <string name="my_work">* Building ERP Software."\n"* Mobile applications with Android Studio."\n"
+    * API Resful microservices with JAVA and using SpringBoot,Hibernate framework and also building API with PHP."\n"* SQL Scripting.
+    </string>
+
+    <string name="my_skills">
+        * JAVA."\n"* Android SDK."\n"* Delphi."\n"* MySQL."\n"* HTML, CSS."\n"* PHP.
+    </string>
+    <string name="my_phonenumer">+54 9 3854742773</string>
+    <string name="my_linkedin">www.linkedin/in/singerwalter</string>
+    <string name="my_skype">walter19802</string>
+    <string name="image_content_descrip">No image</string>
+    <string name="string_get_in_touch">Get in touch</string>
+    <string name="my_github">https://github.com/waltersinger</string>
 </resources>

@@ -1,14 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".views.ContactFragment">
+    tools:context=".views.ContactFragment"
+    android:padding="10dp">
 
-    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/image_whatsapp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:contentDescription="@string/image_content_descrip"
+        android:scaleType="fitCenter"
+        android:src="@drawable/whatsapp" />
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:id="@+id/textview_whatsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_toEndOf="@id/image_whatsapp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="@string/my_phonenumer"
+        android:textSize="16sp" />
 
-</FrameLayout>
+    <ImageView
+        android:id="@+id/image_linkedin"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/image_whatsapp"
+        android:contentDescription="@string/image_content_descrip"
+        android:scaleType="fitCenter"
+        android:src="@drawable/linkedin" />
+
+    <TextView
+        android:id="@+id/textview_linkedin"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/my_linkedin"
+        android:paddingLeft="5dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center_vertical"
+        android:layout_toEndOf="@id/image_linkedin"
+        android:layout_below="@+id/textview_whatsapp"/>
+
+    <ImageView
+        android:id="@+id/image_skype"
+        android:src="@drawable/skype"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="fitCenter"
+        android:layout_below="@id/image_linkedin"
+        />
+    <TextView
+        android:id="@+id/textview_skype"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/my_skype"
+        android:paddingLeft="5dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center_vertical"
+        android:layout_toEndOf="@id/image_skype"
+        android:layout_below="@+id/textview_linkedin"/>
+
+    <ImageView
+        android:id="@+id/image_githublogo"
+        android:src="@drawable/githublogo"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="fitCenter"
+        android:layout_below="@id/image_skype"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/my_github"
+        android:paddingLeft="5dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center_vertical"
+        android:layout_toEndOf="@id/image_skype"
+        android:layout_below="@+id/textview_skype"/>
+
+</RelativeLayout>

@@ -5,4 +5,5 @@
     <color name="colorAccent">#FFAB91</color>
     <color name="tabNav">#FF8A65</color>
     <color name="mainNav"></color>
+    <color name="textButton">#fc278e</color>
 </resources>
